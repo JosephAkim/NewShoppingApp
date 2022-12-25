@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "923739857421",
+    "project_id": "shopping-app-843aa",
+    "storage_bucket": "shopping-app-843aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923739857421:android:95b540a8decbf8b90beb44",
+        "android_client_info": {
+          "package_name": "com.kim.newshoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923739857421-rfiigru927i31rrf0frehnu859tbtd8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kim.newshoppingapp",
+            "certificate_hash": "a8818c3356482d4bc667b081982a0a5755a8c898"
+          }
+        },
+        {
+          "client_id": "923739857421-ph79gdhkc7cla00gddkbcbspsj18j2ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6NLi_cG9CAp1RSdLKPPJrhzoLeTuD-jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923739857421-ph79gdhkc7cla00gddkbcbspsj18j2ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923739857421:android:3c8489d7aff8b0400beb44",
+        "android_client_info": {
+          "package_name": "com.kim.shoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923739857421-ph79gdhkc7cla00gddkbcbspsj18j2ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6NLi_cG9CAp1RSdLKPPJrhzoLeTuD-jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923739857421-ph79gdhkc7cla00gddkbcbspsj18j2ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
