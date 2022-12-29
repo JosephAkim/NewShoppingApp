@@ -7,4 +7,5 @@
     <string name="forgetPassword">forget password</string>
     <string name="ifYouAlreadyHave">Do you have an account? log in</string>
     <string name="RegisterText">Let\'s Register</string>
+    <string name="email">e-mail</string>
 </resources>

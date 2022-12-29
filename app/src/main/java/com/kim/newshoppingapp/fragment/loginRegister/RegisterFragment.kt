@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
+import com.kim.newshoppingapp.R
 import com.kim.newshoppingapp.data.User
 import com.kim.newshoppingapp.databinding.FragmentRegisterBinding
 import com.kim.newshoppingapp.util.RegisterValidation
@@ -32,6 +34,9 @@ class RegisterFragment : Fragment(){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.apply {
+            ifYouDo.setOnClickListener {
+                findNavController().navigate(R.id.action_registerFragment_to_loginFragment)
+            }
             buttonRegisterRegister.setOnClickListener {
                 val user = User(
                     edFirstNameRegister.text.toString().trim(),
